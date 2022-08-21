@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>QR Code Generator</title>
+</head>
+<body>
+        <div class="container">
+            <div class="headings">
+                <h1>QR Code Generator</h1>
+                <p>Generate QR Code for your website</p>
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" id="url" placeholder="Enter URL">
+                <button type="button" class="btn btn-primary" id="generate">Generate</button>
+            </div>
+            <div class="result">
+                <img src="qrcode.png" id="qr-code" alt="QR Code">
+                <!-- download button -->
+                <button type="button" class="btn btn-primary" id="download">Download</button>
+            </div>
+        </div>
+        <script src="script.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.0/FileSaver.min.js"></script>
+</body>
+</html>
