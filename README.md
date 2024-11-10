@@ -34,8 +34,7 @@ A simple and efficient QR Code Generator built with JavaScript, HTML, and CSS. T
 
 ## Tech Stack
 
-- **Frontend**: Flutter, Dart
-- **Backend**: Firebase (Firebase Authentication, Firestore for real-time data)
+- **Frontend**: HTML5, CSS3, JavaScript (Vanilla JS)
 
 ---
 
